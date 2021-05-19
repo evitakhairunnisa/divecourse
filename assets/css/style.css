@@ -1,0 +1,1286 @@
+@font-face {
+    font-family: 'daxline';
+    src: url('../font/DaxlinePro-Regular_13131.ttf');
+    /* IE9 Compat Modes */
+    src: url('../font/DaxlinePro-Regular_13131.ttf') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../font/DaxlinePro-Regular_13131.ttf') format('woff'),
+        /* Modern Browsers */
+        url('../font/DaxlinePro-Regular_13131.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../font/DaxlinePro-Regular_13131.ttf') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'daxline';
+    font-weight: bold;
+    src: url('../font/DaxlinePro-Bold_13127.ttf');
+    /* IE9 Compat Modes */
+    src: url('../font/DaxlinePro-Bold_13127.ttf') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../font/DaxlinePro-Bold_13127.ttf') format('woff'),
+        /* Modern Browsers */
+        url('../font/DaxlinePro-Bold_13127.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../font/DaxlinePro-Bold_13127.ttf') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'helveticaneuemedium';
+    src: url('../font/HelveticaNeueMedium.ttf');
+}
+
+@font-face {
+    font-family: 'helveticaneuelight';
+    src: url('../font/HelveticaNeueLight.ttf');
+}
+
+@font-face {
+    font-family: 'opensans';
+    src: url('../font/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'opensansbold';
+    src: url('../font/OpenSans-Bold.ttf');
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #0f1720 !important;
+}
+
+.navbar {
+    padding: 27px 60px 27px 60px !important;
+    background-color: #000000 !important;
+}
+
+.logo {
+    width: 188.6px;
+    height: 40px;
+}
+
+.nav-link {
+    align-items: center;
+    font-family: DaxlinePro;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.nav-link i {
+    color: yellow;
+}
+
+.country-opt button {
+    width: 100px;
+    height: 40px;
+    opacity: 0.5;
+    border-radius: 30px;
+    background-color: #343d46;
+    font-family: DaxlinePro;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff !important;
+}
+
+.header-jumbotron {
+    background-image: url(../img/dsc-03970.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position: center;
+    margin-top: -70px;
+    height: 720px;
+}
+
+.header-jumbotron .container {
+    margin-top: 380px;
+}
+
+.header-jumbotron .container .display-4 {
+    text-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+    font-family: DaxlinePro;
+    font-size: 64px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.header-jumbotron .container .display-4 span {
+    font-weight: normal;
+    color: #fff100;
+}
+
+.header-jumbotron .container .lead {
+    margin-top: 20px;
+    font-family: DaxlinePro;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.header-jumbotron .container .lead span {
+    font-weight: bold;
+}
+
+.shader {
+    width: 100%;
+    height: 640px;
+    background-image: linear-gradient(to bottom, rgba(5, 67, 154, 0) 19%, #131e29);
+    margin-top: -550px;
+}
+
+.content-why {
+    margin-top: -32px;
+    background-color: #131e29;
+}
+
+.logo-why {
+    position: absolute;
+    width: 213.3px;
+    height: 106.6px;
+    margin-left: 22.5px;
+    margin-top: 27.6px;
+}
+
+.content-why .section-one {
+    padding: 120px 0 0 0;
+}
+
+.content-why .section-one .row .section-one-1 {
+    font-family: DaxlinePro;
+    font-size: 35px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.content-why .section-one .row .section-one-1 span {
+    font-weight: bold;
+    color: #fff100;
+}
+
+.lorem-ipsum {
+    margin-top: 26.6px;
+}
+
+.lorem-ipsum p {
+    font-family: DaxlinePro;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #c0c5ce;
+}
+
+.system {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 80px;
+}
+
+.img-system {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-system img {
+    margin: 27.3px;
+}
+
+.icon-divers {
+    width: 42.4px;
+    height: 24px;
+}
+
+.icon-guide {
+    width: 27.6px;
+    height: 30.6px;
+}
+
+.icon-price {
+    width: 32.6px;
+    height: 26px;
+}
+
+.icon-certificate {
+    width: 21.7px;
+    height: 26.7px;
+}
+
+.desc-system {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    font-family: DaxlinePro;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.desc-system div {
+    justify-content: space-between;
+}
+
+.desc-system span {
+    font-weight: bold;
+}
+
+.desc-system .span-number {
+    font-family: OpenSans;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #a7adba;
+}
+
+.list-desc-system {
+    margin-top: 53px;
+}
+
+.logo-map {
+    position: absolute;
+    width: 172px;
+    height: 240px;
+    margin-left: 22.5px;
+}
+
+.section-two-1 {
+    margin-top: 100px;
+    z-index: 1;
+}
+
+.section-two-1 .title-content {
+    font-family: DaxlinePro;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.section-two-1 .title-content span {
+    font-weight: bold;
+    color: #fff100;
+}
+
+.tab-loc {
+    margin-top: 40px;
+    margin-bottom: 230px;
+}
+
+.topic-loc {
+    display: flex;
+    align-items: center;
+}
+
+.img-topic-loc {
+    margin-right: 30px;
+}
+
+.title-loc {
+    font-family: DaxlinePro;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.67px;
+    color: #fff100;
+    margin-bottom: 10px;
+}
+
+.desc-loc {
+    font-family: DaxlinePro;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #d8dbe1;
+}
+
+.separate {
+    height: 1px;
+    width: 800px;
+    border-bottom: 1px solid #d8dbe1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-three {
+    background-image: url(../img/penyelam.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.ssi {
+    padding: 82px 0 90px 0;
+}
+
+.desc-ssi {
+    margin-top: 40px;
+    font-family: DaxlinePro;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    color: #131e29;
+}
+
+.desc-ssi span {
+    font-weight: bold;
+    color: red;
+}
+
+.button-ssi {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 105px;
+}
+
+.logo-app-myssi {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.btn-register {
+    width: 400px;
+    height: 80px;
+    border-radius: 12px !important;
+    border: solid 3px #fff100 !important;
+    background-color: #131e29 !important;
+    font-family: DaxlinePro;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.btn-download {
+    width: 400px;
+    height: 80px;
+    border-radius: 12px !important;
+    border: solid 3px #ff4c4c !important;
+    background-color: #131e29 !important;
+    font-family: DaxlinePro;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.section-four {
+    background-color: #0f1720;
+}
+
+.products {
+    display: flex;
+    align-items: center;
+}
+
+.section-four .products .tool-products {
+    font-family: DaxlinePro;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.33px;
+    color: #c0c5ce;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-products {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.img-products a img {
+    width: 150px;
+    height: 150px;
+    margin-right: 13px;
+}
+
+.indicator {
+    display: flex;
+    justify-content: center;
+    margin-top: -225px;
+}
+
+.indicator img {
+    height: 225px;
+}
+
+.beginner {
+    width: 360px;
+    height: 75px;
+    background-color: #1a2735;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certified {
+    width: 360px;
+    height: 75px;
+    background-color: #0f1720;
+    color: #ffffff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.go-pro {
+    width: 360px;
+    height: 75px;
+    background-color: #1a2735;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron-2 {
+    background-image: url(../img/advanced-course.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    height: 920px;
+}
+
+.jumbotron-2 .container .display-4 {
+    width: 973px;
+    height: 192px;
+    text-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+    font-family: DaxlinePro;
+    font-size: 70px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.jumbotron-2 .container .display-4 span {
+    font-weight: bold;
+}
+
+.jumbotron-2 .container .lead {
+    margin-top: 380px;
+    font-family: DaxlinePro;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.jumbotron-2 .container .helps {
+    margin-top: 30px;
+    display: flex;
+}
+
+.jumbotron-2 .container .helps img {
+    margin-right: 15px;
+}
+
+.tulamben-loc {
+    width: 140px;
+    height: 170px;
+    background-color: #131e29;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tulamben-loc img {
+    width: 53.2px;
+    margin-top: 20px;
+}
+
+.tulamben-loc p {
+    text-shadow: 0 5px 20px rgba(19, 30, 41, 0.5);
+    font-family: DaxlinePro;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.jumbotron-2 .shader {
+    margin-top: -640px;
+}
+
+.time-tulamben {
+    margin-top: -34px;
+    width: 100%;
+    background-color: #131e29;
+    padding: 0 0 80px 0;
+}
+
+.title-tulamben {
+    margin-top: 60px;
+    font-family: DaxlinePro;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.desc-tulamben {
+    margin-top: 18px;
+    font-family: DaxlinePro;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.icon-tulamben {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-tulamben div .sub-title {
+    margin-top: 12px;
+    font-family: DaxlinePro;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #c0c5ce;
+}
+
+.icon-duration {
+    width: 30px;
+    height: 30px;
+}
+
+.icon-logs {
+    width: 30px;
+    height: 30px;
+}
+
+.icon-rate {
+    width: 30px;
+    height: 21px;
+}
+
+.desc-sub {
+    font-family: OpenSans;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.desc-sub span {
+    color: #fff100;
+}
+
+.rate {
+    margin-left: -50px;
+}
+
+.find-out {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.btn-find-out {
+    width: 250px;
+    height: 60px;
+    border-radius: 12px !important;
+    border: solid 3px #fff100 !important;
+    background: transparent !important;
+    font-family: DaxlinePro;
+    font-size: 24px;
+    font-weight: bold !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.tab-site {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0f1720;
+    margin-top: -1px;
+}
+
+.tab-site div {
+    width: 470px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-site .active {
+    background-color: #0f1720;
+}
+
+.tab-site .active a {
+    font-family: DaxlinePro;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.33px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.tab-site .non-active {
+    background-color: #1a2735;
+    border-left: 1px solid #0f1720;
+}
+
+.tab-site .non-active a {
+    font-family: DaxlinePro;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.33px;
+    text-align: center;
+    color: #c0c5ce;
+}
+
+.tab-content {
+    background-color: #0f1720;
+    padding-bottom: 20px;
+}
+
+.btn-click {
+    margin-top: 30px;
+    border-radius: 34px !important;
+    border: solid 2px #ffffff !important;
+    background-color: #131e29 !important;
+    font-family: DaxlinePro;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.btn-click span {
+    font-weight: bold;
+    color: #fff100;
+}
+
+.tab-topics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-topics .topics {
+    display: flex;
+}
+
+.tab-topics .topics img {
+    width: 150px;
+    height: 150px;
+}
+
+.tab-topics div div .title-topics {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: DaxlinePro;
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff100;
+}
+
+.tab-topics div div .desc-topic {
+    margin-top: 7px;
+    margin-left: 40px;
+    font-family: DaxlinePro;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #d8dbe1;
+}
+
+.separate-2 {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #d8dbe1;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.readmore {
+    display: flex;
+    align-items: flex-end;
+}
+
+.btn-read {
+    width: 200px;
+    height: 45px;
+    border-radius: 25px !important;
+    background-color: #fff100 !important;
+    font-family: DaxlinePro;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #131e29 !important;
+}
+
+.mask {
+    width: 100%;
+    height: 240px;
+    background-image: radial-gradient(circle at 100% 0, #65737e, #1a1f23 101%);
+}
+
+.mask .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mask .container .title {
+    margin-top: 45px;
+    font-family: OpenSans;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #d8dbe1;
+}
+
+.mask .container .title span {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.offer-course {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.offer-course img {
+    width: 150px;
+    height: 150px;
+}
+
+.offer-course div {
+    font-weight: bold;
+    color: #ff4c4c;
+    font-size: 80px;
+}
+
+.sub-total {
+    margin-top: 45px;
+    font-family: OpenSans;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.sub-total span {
+    color: #fff100;
+}
+
+.logo-dive-concept {
+    margin-top: -195px;
+    display: flex;
+    justify-content: center;
+    margin-left: 410px;
+}
+
+.logo-dive-concept img {
+    height: 240px;
+}
+
+.cta-go-pro {
+    width: 100%;
+    height: 240px;
+    background-image: url(../img/cta-go-pro-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cta-go-pro {
+    display: flex;
+    align-items: center;
+}
+
+.cta-go-pro .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta-go-pro .container .title {
+    font-family: DaxlinePro;
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.cta-go-pro .container .title span {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.btn-find-out-more {
+    width: 250px;
+    height: 60px;
+    border-radius: 12px !important;
+    background-color: #ffffff !important;
+    font-family: DaxlinePro;
+    font-size: 16px;
+    font-weight: bold !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #343d46 !important;
+}
+
+.join-us {
+    background-image: url(../img/cta-bg.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 75px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+}
+
+.social-media p {
+    margin-top: 12px;
+    font-family: DaxlinePro;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: -0.5px;
+    color: #fff100;
+}
+
+.social-media p span {
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.icon-sosmed {
+    margin-left: 20px;
+}
+
+.ic-sosmed {
+    width: 45px;
+    height: 45px;
+    margin: 0 5px 0 5px;
+}
+
+.img-none {
+    margin-top: 27px;
+    width: 170px;
+    height: 170px;
+}
+
+.join-us .container .row .col-md-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-join {
+    font-family: DaxlinePro;
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff100;
+}
+
+.desc-join {
+    margin-top: 20px;
+    font-family: DaxlinePro;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.book-now {
+    margin: 120px;
+    width: 300px;
+    height: 135px;
+}
+
+.more-details {
+    background-image: radial-gradient(circle at 50% 0, #131e29, #000000 95%);
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-details {
+    font-family: DaxlinePro;
+    font-size: 56px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 70px;
+}
+
+.desc-details {
+    margin-top: 10px;
+    font-family: DaxlinePro;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff100;
+}
+
+.img-details {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.image-details {
+    margin: 0 30px 0 30px;
+}
+
+.footer {
+    background-color: #131e29;
+}
+
+.logo-dive img {
+    height: 170px;
+}
+
+.footer .container .row .col-md-4 {
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.footer .container .row .col-md-4 .title {
+    margin-top: 40px;
+    font-family: HelveticaNeue;
+    font-size: 23px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 5.33px;
+    color: #fff100;
+}
+
+.footer .container .row .col-md-4 .title span {
+    font-weight: 500;
+}
+
+.description {
+    margin-top: 16px;
+    font-family: DaxlinePro;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.footer-info {
+    margin-top: 10px;
+    font-family: OpenSans;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.footer-info span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff100;
+}
+
+.logo-free {
+    height: 170px;
+}
+
+.title-free {
+    margin-top: 40px;
+    font-family: DaxlinePro;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.title-free span {
+    font-weight: bold;
+    line-height: 1.13;
+    color: #fff100;
+    font-size: 23px;
+}
+
+.read-free {
+    font-family: DaxlinePro;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff100;
+}
+
+.img-ssi img {
+    height: 170px;
+}
+
+.ssi-desc {
+    margin-top: 28px;
+    font-family: DaxlinePro;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.app-store {
+    margin-top: 20px;
+}
+
+.app-store img {
+    width: 140px;
+    margin-right: 10px;
+}
+
+.sponsore {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.img-sponsore {
+    display: flex;
+    align-items: center;
+}
+
+.img-sponsore img {
+    margin-right: 40px;
+}
+
+.img-refill {
+    width: 60px;
+}
+
+.img-shark {
+    width: 150px;
+}
+
+.img-trip {
+    width: 105px;
+}
+
+.img-diveas {
+    width: 147px;
+}
+
+.img-trash {
+    width: 86px;
+}
+
+.photografer .name {
+    font-family: OpenSans;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff100;
+}
+
+.photografer .name span {
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.final {
+    height: 80px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+}
+.final .container{
+    display: flex;
+    justify-content: space-between;
+}
+.text-final {
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.people a{
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.disclaimer{
+    margin-right: 5px;
+}
+.admin{
+    margin-left: 5px;
+}
+@media screen and(max-width:1920px) {}
